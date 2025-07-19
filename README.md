@@ -1,6 +1,19 @@
-# CODINGFLUX - A REALTIME COLLABORATIVE CODE EDITOR
+# LiveScript - A web based real-time code editor
 
-## WEBSITE - _[CODING FLUX]_(https://codingflux.vercel.app/)
+# Demonstration
+
+<div>
+    <a href="https://www.loom.com/share/6df5beef9eb747eaa63195aa369152cb">
+      <p>LiveScript - 19 May 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/6df5beef9eb747eaa63195aa369152cb">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6df5beef9eb747eaa63195aa369152cb-eae1204bec2d6176-full-play.gif">
+    </a>
+</div>
+
+# v1
+
+[![YouTube](https://img.youtube.com/vi/vz3yFS3xPM8/0.jpg)](https://www.youtube.com/watch?v=vz3yFS3xPM8)
 
 ### How to use ?
 
@@ -8,10 +21,10 @@ User onboarding is simple. Create an account to navigate to the dashboard. In th
 
 ### Dummy Test Users
 
-1. email : test01@gmail.com
+1. email : asdfgh@gmail.com
    password : Asdfghj@13
 
-2. email : test02@gmail.com
+2. email : qwerty@gmail.com
    password : Qwertyu@13
 
 ## Setup
@@ -19,39 +32,36 @@ User onboarding is simple. Create an account to navigate to the dashboard. In th
 1. Clone the project in your local machine run
 
 ```
-git clone "https://github.com/Nishant891/CodingFlux.git"
+git clone "https://gitlab.com/nishant19072003-group/livescript.git"
 ```
 
 ### Frontend
 
-2. run
+2. Execute the commands below
 
 ```
 cd client
 ```
 
-
-3. and then run 
-
 ```
 npm install
 ```
 
-4. Create a .env file and copy the contents of .env.example in it.
+3. Create a .env file and copy the contents of .env.example in it.
 
-5. Go to appwrite create an account and create an new organization.
+4. Go to appwrite create an account and create an new organization.
 
-6. Create a new project and go to it's setting get the API ENDPOINT and PROJECT ID and paste it in REACT_APP_API_ENDPOINT and REACT_APP_PROJECT_ID in .env file respectively.
+5. Create a new project and go to it's setting get the API ENDPOINT and PROJECT ID and paste it in REACT_APP_API_ENDPOINT and REACT_APP_PROJECT_ID in .env file respectively.
 
-7. In the database section create a new database and paste the database id in REACT_APP_DATABASE_ID in .env.
+6. In the database section create a new database and paste the database id in REACT_APP_DATABASE_ID in .env.
 
-8. Create a new collection as Rooms and paste the collection id in REACT_APP_COLLECTION_ID in .env 
+7. Create a new collection as Rooms and paste the collection id in REACT_APP_COLLECTION_ID in .env 
 
-9. Then create it's attribute in the Attribute tab xml, css, js with size 20000 respectively and userId with size 500 all of type string.
+8. Then create it's attribute in the Attribute tab xml, css, js with size 20000 respectively and userId with size 500 all of type string.
 
-10. In the same Settings tab scroll down to the permissions section and add permission Users and select all the CRUD operations.
+9. In the same Settings tab scroll down to the permissions section and add permission Users and select all the CRUD operations.
 
-11. Then 
+10. You are good to go
 
 ```
 npm run start
@@ -60,27 +70,21 @@ npm run start
 
 ### Backend
 
-12. run
+11. Start by executing these commands
 
 ```
 cd server
 ```
 
-
-13. and then run
-
 ```
 npm install
 ```
-
-
-14. now run 
 
 ```
 npm start
 ```
 
-15. Copy and paste your localhost url in REACT_APP_BACKEND_URL
+12. Copy and paste your localhost url in REACT_APP_BACKEND_URL
 
 ## FEATURES
 
@@ -112,9 +116,9 @@ npm start
 3. react-toastify 
 4. react-tooltip 
 5. react-icons 
-6. MUI
-5. nodemon
-6. formik
-7. yup
+6. nodemon
+7. formik
+8. yup
 
 
+# LiveScript
